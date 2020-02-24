@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lp_url_color">#848484</color>
+    <color name="lp_description_color">#585858</color>
+    <color name="lp_title_color">#000000</color>
+    <color name="lp_background_color">#ffffff</color>
+    <color name="lp_splitter_color">#787878</color>
+    <color name="lp_image_background_color">#ffffff</color>
+
+
+    <declare-styleable name="LinkPreview">
+        <attr format="color" name="lp_url_color"/>
+        <attr format="color" name="lp_description_color"/>
+        <attr format="color" name="lp_title_color"/>
+        <attr format="color" name="lp_background_color"/>
+        <attr format="boolean" name="lp_with_image"/>
+        <attr name="lp_style" format="integer">
+        <flag name="classic" value="2"/>
+        <flag name="material" value="1"/>
+        <flag name="potrait" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/url"
+            android:hint="@string/enter_your_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/submit"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entered_url_from_text"
+            android:padding="10dp"
+            android:textSize="15sp"
+            />
+
+        <xyz.enterkey.linkpreview.LinkPreview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/previewClassic"
+            app:lp_with_image="true"
+            app:lp_style="classic"/>
+
+        <xyz.enterkey.linkpreview.LinkPreview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/previewMaterial"
+            app:lp_with_image="true"
+            app:lp_style="material"/>
+
+        <xyz.enterkey.linkpreview.LinkPreview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/previewPotrait"
+            app:lp_with_image="true"
+            app:lp_style="potrait"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/randomColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/randomize_color"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

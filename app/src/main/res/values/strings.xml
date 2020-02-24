@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LinkPreviewDemo</string>
+    <string name="enter_your_url">Enter Your url</string>
+    <string name="entered_url_from_text">Entered url from text</string>
+    <string name="submit">Submit</string>
+    <string name="randomize_color">Randomize Color</string>
+</resources>
