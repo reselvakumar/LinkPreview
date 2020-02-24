@@ -2,7 +2,7 @@
 
 This app is for the link preview generator library demo
 
-<img src="screenshots/screen_1.png" width="256"/> <img src="screenshots/screen_2.png" width="256"/>
+<img src="screenshots/scrren_1.png" width="256"/> <img src="screenshots/scrren_2.png" width="256"/>
 
 ## Steps to run the app
 
