@@ -28,4 +28,4 @@ This app is for the link preview generator library demo
     if you don't want or want image use lp_with_image default (false).
 
 ## License
-[Apache-2](./License.txt) license.
+[Apache-2](./LICENSE) license.
