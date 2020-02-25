@@ -12,6 +12,10 @@ This app is for the link preview generator library demo
   ```
 * Build and run it on an Android device
 
+
+## Demo
+[Demo.apk](demo/demo.apk)
+
 ## How to use
     ```
     app:
